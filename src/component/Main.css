@@ -1,0 +1,57 @@
+body{
+  background-image: url('img.jpg');
+}
+.employee-form {
+    width: 800px;
+    margin: auto;
+    text-align: center;
+  }
+  
+  .employee-form h1 {
+    font-size: 30px;
+    text-transform: uppercase;
+  }
+  
+  .form-group {
+    margin-bottom: 20px;
+  }
+  
+  .form-control {
+    padding: 10px 15px;
+    border-color: rgb(10, 10, 10);
+    border-radius:40px;
+    background-color: rgb(178, 182, 170);
+    font-size: 40px;
+  }
+  
+  label {
+    font-size: 40px;
+    margin-right: 5px;
+  }
+  
+  .employees-data {
+    width: 1000px;
+    margin: auto;
+    border-style: solid;
+    margin-top: 90px;
+    padding: 30px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    column-gap: 20px;
+    row-gap: 20px;
+    background-color: cadetblue;
+  }
+  
+  .employee {
+    border-style: solid;
+    text-align: center;
+    
+    padding: 5px;
+    border-radius: 20px;
+    background-color: rgba(53, 148, 34, 0.404);
+  }
+  
+  .employee h3 {
+    font-size: 20px;
+    
+  }
